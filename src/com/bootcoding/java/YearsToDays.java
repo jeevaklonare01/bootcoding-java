@@ -6,7 +6,7 @@ public class YearsToDays {
     }
 
     public static void main(String[] args) {
-        int years = 2;
+        int years = 5;
         int days = convertYearsIntoDays(years);
         if(years>=0) {
             System.out.println(days);
