@@ -1,5 +1,5 @@
 package com.bootcoding.java;
-
+//using return in this statement is better than using if
 public class CheckValue {
 
     public static void main(String[] args) {
