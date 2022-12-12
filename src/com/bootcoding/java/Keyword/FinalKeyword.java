@@ -18,6 +18,6 @@ public class FinalKeyword {
 //        blueMaker=new Marker(); not allowed
 //        It is allowed to change properties of an object
         blueMaker.color = "blue";
-        blueMaker.color = "red";
+//        blueMaker.color = "red";
     }
 }

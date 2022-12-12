@@ -4,7 +4,7 @@ public class Marker {
     //Data Member
     String type;
     String brand;
-    String color;
+    public String color;
     double price;
 
     //Member Methods
