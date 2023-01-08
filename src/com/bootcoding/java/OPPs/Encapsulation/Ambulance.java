@@ -3,7 +3,7 @@ package com.bootcoding.java.OPPs.Encapsulation;
 public class Ambulance {
     private String hospitalName;
     private String type;
-    private double charges;
+    protected double charges;
     private boolean isAvailable;
 
 //    To assign value - use Setter
