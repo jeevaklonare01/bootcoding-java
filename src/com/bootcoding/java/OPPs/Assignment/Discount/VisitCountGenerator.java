@@ -7,7 +7,7 @@ public class VisitCountGenerator {
     private final static int MIN = 1;
     private static Random random = new Random();
 
-    public static int getVisitCount(){
-        return MIN + random.nextInt(MAx-MIN);
-
+    public static int getVisitCount() {
+        return MIN + random.nextInt(MAx - MIN);
+    }
 }
