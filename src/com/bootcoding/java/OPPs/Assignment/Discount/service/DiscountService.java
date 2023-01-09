@@ -11,7 +11,7 @@ public class DiscountService {
         Discount[] discounts = new Discount[LIMIT];
         CustomerService customerService = new CustomerService();
         Customer[] allCustomers = customerService.getAllCustomers();
-        for(int i = 0; i < LIMIT; i++){
+        for(int i = 0; i < allCustomers.length; i++){
             Discount discount = buildDiscount(allCustomers[i]);
             discounts[i] = discount;
         }

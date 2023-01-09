@@ -13,7 +13,7 @@ public class CustomerService {
         Customer[] customers = new Customer[LIMIT];
         for(int i = 0; i<LIMIT;i++){
             Customer customer = buildCustomer();
-            customers[0] = customer;
+            customers[i] = customer;
         }
         return customers;
     }
