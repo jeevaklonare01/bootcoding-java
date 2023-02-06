@@ -7,12 +7,15 @@ public class EvenOdd {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter The Number");
-        int value = sc.nextInt();
-
-        if(value % 2 == 0){
-            System.out.println(value+" is Even Number");
-        }else{
-            System.out.println(value+" is Odd Number");
+        long value = sc.nextLong();
+        boolean res =isEven( value);
+        if(res){
+            System.out.println(value + "is Even Number");}
+            else{
+                System.out.println(value + "is Odd Number");
+            }
         }
+    public static boolean isEven(long value){
+        return value % 2 ==0;
     }
 }
