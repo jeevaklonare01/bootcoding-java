@@ -1,4 +1,4 @@
-package com.bootcoding.java.Scanner;
+package com.bootcoding.java.OPPs.Scanner;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.bootcoding.java;
+package com.bootcoding.java.Method;
 
 public class YearsToDays {
     public static int convertYearsIntoDays(int years){

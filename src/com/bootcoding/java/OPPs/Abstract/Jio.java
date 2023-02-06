@@ -1,4 +1,4 @@
-package com.bootcoding.java.OPPs.RuntimePolymorphism;
+package com.bootcoding.java.OPPs.Abstract;
 
 public class Jio extends Sim{
 

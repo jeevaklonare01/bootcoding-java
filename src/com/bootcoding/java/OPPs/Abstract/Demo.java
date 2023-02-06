@@ -1,4 +1,4 @@
-package com.bootcoding.java.OPPs.RuntimePolymorphism;
+package com.bootcoding.java.OPPs.Abstract;
 
 public class Demo {
     public static void main(String[] args) {

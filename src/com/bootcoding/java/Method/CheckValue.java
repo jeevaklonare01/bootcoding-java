@@ -1,4 +1,4 @@
-package com.bootcoding.java;
+package com.bootcoding.java.Method;
 //using return in this statement is better than using if
 public class CheckValue {
 
