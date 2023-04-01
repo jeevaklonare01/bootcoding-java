@@ -1,15 +1,14 @@
-package com.bootcoding.java.OPPs.Collection.map;
+package com.bootcoding.java.Collection.map;
 
-public class Laptop1 {
-
+public class Laptop implements Comparable<Laptop> {
     private String brand;
     private int ram;
     private double price;
 
-    public Laptop1() {
+    public Laptop() {
     }
 
-    public Laptop1(String brand, int ram, double price) {
+    public Laptop(String brand, int ram, double price) {
         this.brand = brand;
         this.ram = ram;
         this.price = price;
@@ -46,5 +45,15 @@ public class Laptop1 {
                 ", ram=" + ram +
                 ", price=" + price +
                 '}';
+    }
+
+
+    @Override
+    public int compareTo(Laptop laptop) {
+        if(this.getRam()>laptop.getRam()){
+            return 1;
+        }else{
+            return  -1;
+        }
     }
 }

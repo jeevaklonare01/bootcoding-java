@@ -1,4 +1,4 @@
-package com.bootcoding.java.OPPs.Collection.list;
+package com.bootcoding.java.Collection.list;
 
 import java.util.LinkedList;
 import java.util.List;

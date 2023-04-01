@@ -1,4 +1,4 @@
-package com.bootcoding.java.OPPs.Collection.map;
+package com.bootcoding.java.Collection.map;
 
 import java.util.ArrayList;
 import java.util.Collections;

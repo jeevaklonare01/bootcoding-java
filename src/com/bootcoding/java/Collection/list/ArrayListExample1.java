@@ -1,7 +1,6 @@
-package com.bootcoding.java.OPPs.Collection.list;
+package com.bootcoding.java.Collection.list;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListExample1 {

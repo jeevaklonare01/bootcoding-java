@@ -1,10 +1,11 @@
-package com.bootcoding.java.OPPs.Collection.list;
-import java.util.LinkedList;
+package com.bootcoding.java.Collection.list;
+
+import java.util.ArrayList;
 import java.util.List;
 
-public class LinkedListExample2 {
+public class ArrayListExample2 {
     public static void main(String[] args) {
-        List<Person> list = new LinkedList<Person>();
+        List<Person> list = new ArrayList<Person>();
         list.add(new Person("Raja",22,2633193));
         list.add(new Person("Banti",31,1234567));
         list.add(new Person("Babli",23,7654321));
